@@ -67,9 +67,9 @@
             // 
             // btnCong
             // 
-            this.btnCong.Location = new System.Drawing.Point(384, 233);
+            this.btnCong.Location = new System.Drawing.Point(369, 233);
             this.btnCong.Name = "btnCong";
-            this.btnCong.Size = new System.Drawing.Size(94, 29);
+            this.btnCong.Size = new System.Drawing.Size(50, 29);
             this.btnCong.TabIndex = 3;
             this.btnCong.Text = "+";
             this.btnCong.UseVisualStyleBackColor = true;
@@ -98,9 +98,9 @@
             // 
             // btnTru
             // 
-            this.btnTru.Location = new System.Drawing.Point(266, 233);
+            this.btnTru.Location = new System.Drawing.Point(294, 233);
             this.btnTru.Name = "btnTru";
-            this.btnTru.Size = new System.Drawing.Size(94, 29);
+            this.btnTru.Size = new System.Drawing.Size(56, 29);
             this.btnTru.TabIndex = 7;
             this.btnTru.Text = "-";
             this.btnTru.UseVisualStyleBackColor = true;
