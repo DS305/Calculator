@@ -72,6 +72,7 @@
             this.btnCong.TabIndex = 3;
             this.btnCong.Text = "+";
             this.btnCong.UseVisualStyleBackColor = true;
+            this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
             // 
             // txtB
             // 
