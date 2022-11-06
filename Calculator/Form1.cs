@@ -9,11 +9,14 @@ namespace Calculator
 
         private void btnCong_Click(object sender, EventArgs e)
         {
-            double a, b, sum;
-            a = double.Parse(txtA.Text);
-            b = double.Parse(txtB.Text);
-            sum = a + b;
-            txtKQ.Text = sum.ToString();
+            if (txtA.Text != String.Empty)
+            {
+                double a, b, sum;
+                a = double.Parse(txtA.Text);
+                b = double.Parse(txtB.Text);
+                sum = a + b;
+                txtKQ.Text = sum.ToString();
+            }
         }
 
         private void btnTru_Click(object sender, EventArgs e)
