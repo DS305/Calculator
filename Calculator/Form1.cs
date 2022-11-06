@@ -9,7 +9,11 @@ namespace Calculator
 
         private void btnCong_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (txtA.Text != String.Empty)
+=======
+            if (txtA.Text != String.Empty && txtB.Text != String.Empty)
+>>>>>>> feature-cal
             {
                 double a, b, sum;
                 a = double.Parse(txtA.Text);
@@ -21,10 +25,10 @@ namespace Calculator
 
         private void btnTru_Click(object sender, EventArgs e)
         {
-            double a, b, sub;
-            a = double.Parse(txtA.Text);
-            b = double.Parse(txtB.Text);
-            sub = a - b;
+            double Sa, Sb, sub;
+            Sa = double.Parse(txtA.Text);
+            Sb = double.Parse(txtB.Text);
+            sub = Sa - Sb;
             txtKQ.Text = sub.ToString();
         }
     }
