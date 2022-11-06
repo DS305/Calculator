@@ -21,10 +21,10 @@ namespace Calculator
 
         private void btnTru_Click(object sender, EventArgs e)
         {
-            double a, b, sub;
-            a = double.Parse(txtA.Text);
-            b = double.Parse(txtB.Text);
-            sub = a - b;
+            double Sa, Sb, sub;
+            Sa = double.Parse(txtA.Text);
+            Sb = double.Parse(txtB.Text);
+            sub = Sa - Sb;
             txtKQ.Text = sub.ToString();
         }
     }
