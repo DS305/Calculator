@@ -15,5 +15,14 @@ namespace Calculator
             sum = a + b;
             txtKQ.Text = sum.ToString();
         }
+
+        private void btnTru_Click(object sender, EventArgs e)
+        {
+            double a, b, sub;
+            a = double.Parse(txtA.Text);
+            b = double.Parse(txtB.Text);
+            sub = a - b;
+            txtKQ.Text = sub.ToString();
+        }
     }
 }
